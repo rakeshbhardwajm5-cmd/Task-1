@@ -9,7 +9,6 @@
 
 DHT dht(DHTPIN, DHTTYPE);
 
-// Address usually 0x27 or 0x3F
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 void setup() {
